@@ -1,0 +1,60 @@
+{
+  "version": "1",
+  "name": "Rosé Pine Theme",
+  "manifest_version": 2,
+  "theme": {
+    // todo:
+    // "images": {
+    // "theme_frame": "images/theme_frame_camo.png",
+    // "theme_frame_overlay": "images/theme_frame_stripe.png",
+    // "theme_toolbar": "images/theme_toolbar_camo.png",
+    // "theme_ntp_background": "images/theme_ntp_background_norepeat.png",
+    // "theme_ntp_attribution": "images/attribution.png"
+    // },
+
+    // blue for testing
+    // 0, 150, 255
+
+    "colors": {
+      "frame": [25, 23, 36], // base
+      "frame_inactive": [31, 29, 46], // surface
+      "frame_incognito": [38, 35, 58], // overlay
+      "frame_incognito_inactive": [31, 29, 46], // surface
+      "background_tab": [31, 29, 46], // surface
+      "background_tab_inactive": [38, 35, 58], // overlay
+      "background_tab_incognito": [0, 0, 0],
+      "background_tab_incognito_inactive": [0, 0, 0],
+      "bookmark_text": [0, 0, 0],
+      // todo: doesn't seem to work, should change background behind new tab '+'
+      "button_background": [246, 193, 119], // gold ???
+      "tab_background_text": [144, 140, 170], // subtle
+      "tab_background_text_inactive": [110, 106, 134], // muted
+      "tab_background_text_incognito": [0, 0, 0],
+      "tab_background_text_incognito_inactive": [0, 0, 0],
+      "tab_text": [224, 222, 244], // text
+      "toolbar": [38, 35, 58], // overlay
+      "toolbar_button_icon": [0, 0, 0],
+      "omnibox_text": [0, 0, 0],
+      "omnibox_background": [0, 0, 0],
+      "ntp_background": [0, 0, 0],
+
+      // todo: doesn't change 1px border
+      // https://docs.google.com/document/d/1jt9vdUY9O5IMm6Zoi2Kz0LWFfFZpvP69qjy6PoGsEoA/mobilebasic#id.c4bce169fd68
+      "ntp_header": [31, 29, 46], // surface ???
+      "ntp_link": [0, 0, 0],
+      "ntp_text": [0, 0, 0]
+    },
+    "tints": {
+      "buttons": [0, 0, 0],
+      "frame": [0, 0, 0],
+      "frame_inactive": [0, 0, 0],
+      "frame_incognito": [0, 0, 0],
+      "frame_incognito_inactive": [0, 0, 0],
+      "background_tab": [0, 0, 0]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_logo_alternate": ""
+    }
+  }
+}
