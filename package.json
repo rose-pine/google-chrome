@@ -1,0 +1,25 @@
+{
+  "name": "rose-pine-google-chrome",
+  "version": "0.0.0",
+  "description": "Soho vibes for Google Chrome",
+  "license": "MIT",
+  "repository": "fvrests/rose-pine-google-chrome",
+  "funding": "https://github.com/sponsors/fvrests",
+  "author": {
+    "name": "fvrests",
+    "email": "fvrests@icloud.com"
+  },
+  "type": "module",
+  "exports": "./build.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "clean": "del-cli \"rose-pine-dark/Cached Theme.pak\" \"rose-pine-dawn/Cached Theme.pak\" \"rose-pine-moon/Cached Theme.pak\"",
+    "build": "npm run clean && node build.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "del-cli": "^4.0.1"
+  }
+}
