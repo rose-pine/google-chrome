@@ -1,0 +1,55 @@
+{
+  "version": "1",
+  "name": "Rosé Pine",
+  "manifest_version": 2,
+
+  "theme": {
+    "images": {
+      "theme_frame": "swatches/base.png",
+      "theme_toolbar": "swatches/surface.png",
+      "theme_frame_incognito": "swatches/med.png"
+    },
+
+    "colors": {
+      // main theme
+      "frame": [0, 0, 0], // overridden by images.theme_frame, but must be black to hide frame outline
+      "frame_inactive": [0, 0, 0], // base - overridden by tints.frame_inactive but may need to be black to hide frame outline
+      "bookmark_text": $text,
+      "button_background": $base,
+      "tab_background_text": $subtle,
+      "tab_background_text_inactive": $muted,
+      "tab_text": $text,
+      "toolbar": $overlay,
+      "toolbar_button_icon": $text,
+
+      // incognito
+      "frame_incognito": [0, 0, 0],
+      "frame_incognito_inactive": $highlightMed,
+      "tab_background_text_incognito": $text,
+      "tab_background_text_incognito_inactive": $subtle,
+
+      // omnibox
+      "omnibox_text": $accent,
+      "omnibox_background": $base,
+
+      // new tab page
+      "ntp_background": $base,
+      "ntp_header": $surface,
+      "ntp_link": $subtle,
+      "ntp_text": $subtle
+    },
+
+    "tints": {
+      "buttons": [-1, -1, -1],
+      "frame": [-1, -1, -1],
+      "frame_inactive": [-1, -1, 0.485],
+      "frame_incognito": [-1, -1, -1],
+      "frame_incognito_inactive": [-1, -1, -1]
+    },
+
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_logo_alternate": 1
+    }
+  }
+}
