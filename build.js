@@ -1,7 +1,7 @@
-import fs from 'fs'
+import fs from "fs";
 
-let template = fs.readFileSync('./template.json', 'utf8')
-template = JSON.stringify(template)
+let template = fs.readFileSync("./manifest-template.json", "utf8");
+template = JSON.stringify(template);
 
 let colors = {
   dark: {
@@ -34,16 +34,16 @@ let colors = {
     accent: [40, 105, 131],
     surface: [255, 250, 243],
   },
-}
+};
 
-for (let variant of ['dark', 'moon', 'dawn']) {
-  let theme = template
+for (let variant of ["dark", "moon", "dawn"]) {
+  let theme = template;
   for (let color in colors[variant]) {
-    theme = theme.replaceAll(`$${color}`, `[${colors[variant][color]}]`)
+    theme = theme.replaceAll(`$${color}`, `[${colors[variant][color]}]`);
   }
   fs.writeFileSync(
     `./rose-pine-${variant}/manifest.json`,
     JSON.parse(theme),
-    'utf8'
-  )
+    "utf8"
+  );
 }
