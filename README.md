@@ -17,7 +17,7 @@
 
 1. Download your desired theme.
 2. Navigate to `chrome://extensions` & click `load unpacked`.
-3. Choose the folder containing your theme & the colors should load automatically.
+3. Choose the folder containing your theme & the theme should load automatically.
 
 **Customization**
 
@@ -25,7 +25,7 @@ Replace desired colors with your own RGB values in `manifest.json`, then follow 
 
 Recommended theming options:
 
-| option                | elements affected                                       |
+| Option                | Elements affected                                       |
 | --------------------- | ------------------------------------------------------- |
 | "omnibox_text"        | text, bookmark and share icons in omnibox (address bar) |
 | "ntp_text"            | quick link titles in new tab page                       |
@@ -38,12 +38,18 @@ Themes contain values for Incognito Mode, but you may have to enable this behavi
 
 ## Gallery
 
-![Rosé Pine for Google Chrome](assets/template.png)
+**Rosé Pine**
+
+![Rosé Pine for Google Chrome](assets/dark.png)
+
+**Rosé Pine Moon**
+
+![Rosé Pine Moon for Google Chrome](assets/moon.png)
+
+**Rosé Pine Dawn**
+
+![Rosé Pine Dawn for Google Chrome](assets/dawn.png)
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
-
-## Style guide
-
-- Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
+- [fvrests](https://github.com/fvrests)
