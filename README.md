@@ -25,10 +25,12 @@ Replace desired colors with your own RGB values in `manifest.json`, then follow 
 
 Recommended theming options:
 
-    - "omnibox_text": text, bookmark and share icons in omnibox (address bar)
-    - "ntp_text": quick link titles in new tab page
-    - "tab_text": text of currently active tab
-    - "tab_background_text": text of background tab & new tab (+) button
+| option                | elements affected                                       |
+| --------------------- | ------------------------------------------------------- |
+| "omnibox_text"        | text, bookmark and share icons in omnibox (address bar) |
+| "ntp_text"            | quick link titles in new tab page                       |
+| "tab_text"            | text of currently active tab                            |
+| "tab_background_text" | text of background tab & new tab (+) button             |
 
 **Incognito Mode**
 
