@@ -12,8 +12,8 @@
 
     "colors": {
       // main theme
-      "frame": [25, 23, 36], // base - overridden by images.theme_frame but causes bug if not set
-      "frame_inactive": [25, 23, 36], // base - overridden by tints.frame_inactive but may cause bug if not set
+      "frame": [0, 0, 0], // overridden by images.theme_frame, but must be black to hide frame outline
+      "frame_inactive": [0, 0, 0], // base - overridden by tints.frame_inactive but may need to be black to hide frame outline
       "bookmark_text": [224, 222, 244], // text
       "button_background": [25, 23, 36], // base
       "tab_background_text": [144, 140, 170], // subtle
@@ -37,13 +37,6 @@
       "ntp_header": [31, 29, 46], // surface
       "ntp_link": [144, 140, 170], // subtle
       "ntp_text": [144, 140, 170] // subtle
-
-      // don't seem to work
-      // "ntp_link_underline": [0, 0, 0],
-      // "ntp_section": [0, 0, 0],
-      // "ntp_section_text": [0, 0, 0],
-      // "ntp_section_link": [0, 0, 0],
-      // "ntp_section_link_underline": [0, 0, 0]
     },
 
     "tints": {
