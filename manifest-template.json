@@ -1,6 +1,6 @@
 {
   "version": "1.0.1",
-  "name": "Rosé Pine",
+  "name": "$name",
   "manifest_version": 3,
 
   "theme": {
@@ -29,7 +29,7 @@
       "tab_background_text_incognito_inactive": $subtle,
 
       // omnibox
-      "omnibox_text": $accent,
+      "omnibox_text": $($rose|$iris|$pine),
       "omnibox_background": $base,
 
       // new tab page

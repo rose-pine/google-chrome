@@ -1,6 +1,6 @@
 {
   "version": "1.0.1",
-  "name": "Rosé Pine",
+  "name": "Rosé Pine Moon",
   "manifest_version": 3,
 
   "theme": {
@@ -14,29 +14,29 @@
       // main theme
       "frame": [0, 0, 0], // overridden by images.theme_frame, but must be black to hide frame outline
       "frame_inactive": [0, 0, 0], // base - overridden by tints.frame_inactive but may need to be black to hide frame outline
-      "bookmark_text": [224,222,244],
-      "button_background": [35,33,54],
-      "tab_background_text": [144,140,170],
-      "tab_background_text_inactive": [110,106,134],
-      "tab_text": [224,222,244],
-      "toolbar": [57,53,82],
-      "toolbar_button_icon": [224,222,244],
+      "bookmark_text": [224, 222, 244],
+      "button_background": [35, 33, 54],
+      "tab_background_text": [144, 140, 170],
+      "tab_background_text_inactive": [110, 106, 134],
+      "tab_text": [224, 222, 244],
+      "toolbar": [57, 53, 82],
+      "toolbar_button_icon": [224, 222, 244],
 
       // incognito
       "frame_incognito": [0, 0, 0],
-      "frame_incognito_inactive": [68,65,90],
-      "tab_background_text_incognito": [224,222,244],
-      "tab_background_text_incognito_inactive": [144,140,170],
+      "frame_incognito_inactive": [68, 65, 90],
+      "tab_background_text_incognito": [224, 222, 244],
+      "tab_background_text_incognito_inactive": [144, 140, 170],
 
       // omnibox
-      "omnibox_text": [196,167,231],
-      "omnibox_background": [35,33,54],
+      "omnibox_text": [196, 167, 231],
+      "omnibox_background": [35, 33, 54],
 
       // new tab page
-      "ntp_background": [35,33,54],
-      "ntp_header": [42,39,63],
-      "ntp_link": [144,140,170],
-      "ntp_text": [144,140,170]
+      "ntp_background": [35, 33, 54],
+      "ntp_header": [42, 39, 63],
+      "ntp_link": [144, 140, 170],
+      "ntp_text": [144, 140, 170]
     },
 
     "tints": {

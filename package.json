@@ -16,10 +16,11 @@
   },
   "scripts": {
     "clean": "del-cli \"rose-pine-dark/Cached Theme.pak\" \"rose-pine-dawn/Cached Theme.pak\" \"rose-pine-moon/Cached Theme.pak\"",
-    "build": "npm run clean && node build.js"
+    "build": "npm run clean && sh ./build.sh"
   },
   "keywords": [],
   "dependencies": {
+    "@rose-pine/build": "^0.5.1",
     "del-cli": "^4.0.1"
   }
 }
