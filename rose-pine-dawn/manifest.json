@@ -1,7 +1,7 @@
 {
-  "version": "1",
+  "version": "1.0.1",
   "name": "Rosé Pine",
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "theme": {
     "images": {
