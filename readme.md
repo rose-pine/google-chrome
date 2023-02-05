@@ -40,15 +40,17 @@ Themes contain values for Incognito Mode, but you may have to enable this behavi
 
 **Rosé Pine**
 
-![Rosé Pine for Google Chrome](assets/dark.png)
+![Rosé Pine for Google Chrome](https://user-images.githubusercontent.com/47515065/216839256-9f88e915-89db-489b-afe9-32708c1b3aa8.png)
 
 **Rosé Pine Moon**
 
-![Rosé Pine Moon for Google Chrome](assets/moon.png)
+![Rosé Pine Moon for Google Chrome](https://user-images.githubusercontent.com/47515065/216839277-580aab4f-a46e-430e-bf0f-eb093920dd9d.png)
+
 
 **Rosé Pine Dawn**
 
-![Rosé Pine Dawn for Google Chrome](assets/dawn.png)
+![Rosé Pine Dawn for Google Chrome](https://user-images.githubusercontent.com/47515065/216839294-60aa8f68-063b-4920-82fb-74dc09d14017.png)
+
 
 ## Thanks to
 
