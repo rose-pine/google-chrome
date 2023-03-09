@@ -5,7 +5,7 @@
 
   "theme": {
     "images": {
-      "theme_frame": "swatches/base.png",
+      "theme_frame": "swatches/$(base|base|overlay).png",
       "theme_toolbar": "swatches/surface.png",
       "theme_frame_incognito": "swatches/med.png"
     },
