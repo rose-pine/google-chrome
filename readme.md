@@ -13,6 +13,12 @@
 
 ## Usage
 
+**Install via the Chrome Web store**
+
+- [Rosé Pine](https://chrome.google.com/webstore/detail/ros%C3%A9-pine/noimedcjdohhokijigpfcbjcfcaaahej)
+- [Rosé Pine Moon](https://chrome.google.com/webstore/detail/ros%C3%A9-pine-moon/ohjebgkppidheiajbgnnmmieaapjppje)
+- [Rosé Pine Dawn](https://chrome.google.com/webstore/detail/ros%C3%A9-pine-dawn/faffeempkcpjhcmfpglpkdpbkdmbpaab)
+
 **Manual Installation**
 
 1. Download your desired theme.
@@ -46,11 +52,9 @@ Themes contain values for Incognito Mode, but you may have to enable this behavi
 
 ![Rosé Pine Moon for Google Chrome](https://user-images.githubusercontent.com/47515065/216839277-580aab4f-a46e-430e-bf0f-eb093920dd9d.png)
 
-
 **Rosé Pine Dawn**
 
 ![Rosé Pine Dawn for Google Chrome](https://user-images.githubusercontent.com/47515065/216839294-60aa8f68-063b-4920-82fb-74dc09d14017.png)
-
 
 ## Thanks to
 
